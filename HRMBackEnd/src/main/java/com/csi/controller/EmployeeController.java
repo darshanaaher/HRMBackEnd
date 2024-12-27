@@ -119,10 +119,10 @@ public class EmployeeController {
         return ResponseEntity.ok("Data deleted successfully");
     }
 
-    @DeleteMapping("/deletealldata")
+    /*@DeleteMapping("/deletealldata")
     public ResponseEntity<String> deleteAllData(){
         employeeServiceImpl.deleteAll();
         return ResponseEntity.ok("All data deleted successfully");
-    }
+    }*/
 }
 
